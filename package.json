@@ -1,16 +1,19 @@
 {
   "name": "sit725_mvc",
   "version": "1.0.0",
-  "main": "dbconnection.js",
+  "description": "",
+  "main": "scripts.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter spec",
     "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "chai": "^4.3.8",
     "express": "^4.18.2",
-    "mongodb": "^4.4.1"
-  },
-  "description": ""
+    "mocha": "^10.2.0",
+    "mongodb": "^4.4.1",
+    "request": "^2.88.2"
+  }
 }
